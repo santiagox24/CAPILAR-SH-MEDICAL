@@ -84,3 +84,65 @@
 {
     font-weight: 300;
 }
+
+main
+{
+  background-color: whitesmoke;
+}
+
+footer
+{
+  background-color: white;
+}
+
+.imagen_footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-footer
+{
+    height: 200px;
+    width: 350px;
+    padding: 15px;   
+}
+
+.imagen-footer2
+{
+  height: 60px;
+  width: 60px;
+}
+
+.informacion
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-visitanos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion-grande
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}

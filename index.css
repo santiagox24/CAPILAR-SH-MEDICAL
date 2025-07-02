@@ -55,7 +55,7 @@
 {
     display: flex;
     flex-direction: row;
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
 }
 
@@ -145,4 +145,16 @@ footer
     justify-content: center;
     align-items: center;
     margin: 100px;
+}
+
+
+.imagen-footer2
+{
+  height: 60px;
+  width: 80px;
+}
+
+.explicacion
+{
+  font-weight: 100;
 }

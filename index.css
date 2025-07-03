@@ -158,3 +158,49 @@ footer
 {
   font-weight: 100;
 }
+
+.doctores-foto
+{
+  height: 850px;
+  width: 600px;
+}
+
+.perfil-doctores
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-perfiles
+{
+  margin: 100px;
+}
+
+.tipo-doctor
+{
+  font-weight: 500;
+
+}
+
+.intro-tipo-doctor
+{
+  width: 700px;
+}
+
+.boton-perfiles
+{
+  color: lightskyblue;
+  cursor: pointer;
+  border-color:lightskyblue;
+  width: 150px;
+  height: 50px;
+  background-color: whitesmoke;
+  border-width: 2px;
+}
+
+#tipo-doctor-margin
+{
+  margin-top: 100px;
+}

@@ -1,0 +1,192 @@
+
+.header {
+  display: flex;
+  align-items: center; /* Vertically centers items */
+  justify-content: space-between; /* Optional: adds space between logo and nav */
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.nav-list {
+  display: flex;
+   gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list li {
+  padding: 10px 0 10px 20px;
+  font-weight: 400;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav-list a {
+  color: black;
+  text-decoration: none;
+  font-size: 28px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-header1
+{
+    height: 110px;
+    width: 200px;
+    padding: 15px;   
+}
+
+.imagen-header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-2
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 0px;
+}
+
+.primer-texto
+{
+    background: linear-gradient(to bottom, #e0f0ff, #ffffff);
+    padding: 10px;
+    width: 41%;
+    height: auto;
+}
+
+.titulo-header2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-header2
+{
+    height: 100%;
+    width: 400%;
+}
+
+.texto-explicacion
+{
+    font-weight: 300;
+}
+
+main
+{
+  background-color: whitesmoke;
+  margin: 10px;
+}
+
+footer
+{
+  background-color: white;
+}
+
+.imagen_footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-footer
+{
+    height: 200px;
+    width: 350px;
+    padding: 15px;   
+}
+
+.imagen-footer2
+{
+  height: 60px;
+  width: 60px;
+}
+
+.informacion
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-visitanos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion-grande
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+
+.imagen-footer2
+{
+  height: 60px;
+  width: 80px;
+}
+
+.titulo-main
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1Main
+{
+    font-weight: 501;
+    padding: 50px;
+}
+
+.recomendaciones
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    margin: 100px;
+    padding-bottom: 100px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.recomendaciones>h2
+{
+    font-size:xx-large ;
+}
+
+.recomendaciones>h3
+{
+    font-size: x-large;
+}

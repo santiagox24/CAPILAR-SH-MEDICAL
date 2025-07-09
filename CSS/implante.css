@@ -167,6 +167,7 @@ footer
 {
     font-weight: 501;
     padding: 50px;
+
 }
 
 .recomendaciones
@@ -189,4 +190,29 @@ footer
 .recomendaciones>h3
 {
     font-size: x-large;
+}
+
+
+.h1Main2
+{
+  font-weight: 501;
+  padding: 50px;
+  font-size: xxx-large;
+}
+
+.texto-explicacion2
+{
+  width: 1000px;
+  font-weight: 300;
+}
+
+.boton-saber-mas
+{
+  color: lightskyblue;
+  cursor: pointer;
+  border-color:lightskyblue;
+  width: 150px;
+  height: 50px;
+  background-color: whitesmoke;
+  border-width: 2px;
 }

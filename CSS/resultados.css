@@ -1,0 +1,180 @@
+
+.header {
+  display: flex;
+  align-items: center; /* Vertically centers items */
+  justify-content: space-between; /* Optional: adds space between logo and nav */
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.nav-list {
+  display: flex;
+   gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list li {
+  padding: 10px 0 10px 20px;
+  font-weight: 400;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav-list a {
+  color: black;
+  text-decoration: none;
+  font-size: 28px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-header1
+{
+    height: 110px;
+    width: 200px;
+    padding: 15px;   
+}
+
+.imagen-header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main
+{
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+footer
+{
+  background-color: white;
+}
+
+.imagen_footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-footer
+{
+    height: 200px;
+    width: 350px;
+    padding: 15px;   
+}
+
+.imagen-footer2
+{
+  height: 60px;
+  width: 60px;
+}
+
+.informacion
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-visitanos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion-grande
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+
+.imagen-footer2
+{
+  height: 60px;
+  width: 80px;
+}
+
+.explicacion
+{
+  font-weight: 100;
+}
+
+.doctores-foto
+{
+  height: 550px;
+  width: 650px;
+  margin: 20px;
+}
+
+.perfil-doctores
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-perfiles
+{
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tipo-doctor
+{
+  font-weight: 500;
+  width: 900px;
+
+}
+
+.intro-tipo-doctor
+{
+  width: 700px;
+}
+
+.boton-perfiles
+{
+  color: lightskyblue;
+  cursor: pointer;
+  border-color:lightskyblue;
+  width: 150px;
+  height: 50px;
+  background-color: whitesmoke;
+  border-width: 2px;
+}
+
+#tipo-doctor-margin
+{
+  margin-top: 100px;
+}

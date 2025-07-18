@@ -40,9 +40,8 @@
 
 .imagen-header1
 {
-    height: 110px;
-    width: 200px;
-    padding: 15px;   
+    height: 410px;
+    width: 400px;
 }
 
 .imagen-header
@@ -274,5 +273,11 @@ footer
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  body
+  {
+    height: 100%;
+    width: 1121px;
   }
 }

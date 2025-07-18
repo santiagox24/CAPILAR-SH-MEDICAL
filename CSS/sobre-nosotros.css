@@ -170,3 +170,72 @@ footer
 {
   margin-top: 100px;
 }
+
+
+@media (max-width: 1480px)
+{
+  .header-2
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+  }
+
+  .img2
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagen-header2
+  {
+    min-height: 800px;
+    max-height: 800px;
+    width: auto;
+  }
+
+  .perfil-doctores
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .primer-texto
+  {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1250px)
+{
+  .nav-list
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1120px)
+{
+  .informacion-grande2
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body
+  {
+    height: 100%;
+    width: 1121px;
+  }
+}

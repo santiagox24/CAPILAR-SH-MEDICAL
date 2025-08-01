@@ -281,3 +281,26 @@ footer
     width: 1121px;
   }
 }
+
+@media(max-width: 900px)
+{
+  .header-1
+  {
+    width: 900px;
+  }
+
+  .header-2
+  {
+    width: 900px;
+  }
+
+  .informacion-grande
+  {
+    width: 900px;
+  }
+
+  .perfil-doctores
+  {
+    width: 900px;
+  }
+}

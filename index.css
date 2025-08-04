@@ -55,6 +55,7 @@
 {
     display: flex;
     flex-direction: row;
+
     padding: 10px;
     margin: 0px;
 }
@@ -221,6 +222,7 @@ footer
   margin-top: 100px;
 }
 
+
 @media (max-width: 1480px)
 {
   .header-2
@@ -278,7 +280,7 @@ footer
   body
   {
     height: 100%;
-    width: 1121px;
+    width: 100%;
   }
 }
 
@@ -292,15 +294,28 @@ footer
   .header-2
   {
     width: 900px;
+    justify-content: center;
   }
 
   .informacion-grande
   {
     width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
   }
 
   .perfil-doctores
   {
     width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main
+  {
+    width: 100% !important;
   }
 }

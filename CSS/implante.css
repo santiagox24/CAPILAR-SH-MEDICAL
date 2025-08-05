@@ -1,3 +1,12 @@
+html
+{
+  width: 100%;
+}
+
+footer
+{
+  width: 100%;
+}
 
 .header {
   display: flex;
@@ -294,13 +303,7 @@ footer
     justify-content: center;
   }
 
-  .informacion-grande
-  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+  
 
   .img2
   {
@@ -311,6 +314,14 @@ footer
   {
     width: 900px;
     height: auto;
+  }
+
+  .informacion-grande
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -329,14 +340,6 @@ footer
     padding: 0px;
   }
 
-  .informacion-grande
-  {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-  }
 
   .perfil-doctores
   {

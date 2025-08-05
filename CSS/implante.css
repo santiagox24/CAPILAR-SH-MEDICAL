@@ -78,7 +78,13 @@
 .imagen-header2
 {
     height: 100%;
-    width: 400%;
+    width: 100%;
+}
+
+.img2
+{
+  width: 100%;
+  height: auto;
 }
 
 .texto-explicacion
@@ -89,7 +95,6 @@
 main
 {
   background-color: whitesmoke;
-  margin: 10px;
 }
 
 footer
@@ -203,7 +208,6 @@ footer
 
 .texto-explicacion2
 {
-  width: 1000px;
   font-weight: 300;
 }
 
@@ -235,45 +239,39 @@ footer
     width: 1000px;
 }
 
-@media (max-width: 1480px)
+@media (max-width: 1500px)
 {
   .header-2
   {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100%;
-    width: auto;
-  }
-
-  .img2
-  {
-    display: flex;
     align-items: center;
-    justify-content: center;
-  }
-  
-  .imagen-header2
-  {
-    min-height: 800px;
-    max-height: 800px;
-    width: auto;
+    padding: 0px;
+    width: 100%;
   }
 
   .perfil-doctores
   {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+  }
+
+  .informacion-grande
+  {
+    width: 100%;
   }
 
   .primer-texto
   {
     width: 100%;
   }
+
+  .recomendaciones
+  {
+    width: auto;
+  }
 }
+
 
 @media (max-width: 1250px)
 {
@@ -296,9 +294,86 @@ footer
     justify-content: center;
   }
 
-  body
+  .informacion-grande
   {
-    height: 100%;
-    width: 1121px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img2
+  {
+    width: 100%;
+  }
+
+  .recomendaciones-imagen
+  {
+    width: 900px;
+    height: auto;
+  }
+}
+
+
+@media(max-width: 900px)
+{
+  .header-1
+  {
+    width: 100%;
+  }
+
+  .header-2
+  {
+    width: 100%;
+    justify-content: center;
+    padding: 0px;
+  }
+
+  .informacion-grande
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .perfil-doctores
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main
+  {
+    width: 100% !important;
+  }
+
+  .intro-tipo-doctor
+  {
+    width: 100%;
+  }
+
+  .recomendaciones-imagen
+  {
+    width: 600px;
+  }
+}
+
+@media(max-width: 600px)
+{
+  .recomendaciones-imagen
+  {
+    width: 380px;
+  }
+}
+
+@media(max-width: 400px)
+{
+  .recomendaciones-imagen
+  {
+    width: 280px;
   }
 }

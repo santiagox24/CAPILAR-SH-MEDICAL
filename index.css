@@ -91,6 +91,8 @@
 .texto-explicacion
 {
     font-weight: 300;
+    height: auto;
+    width: 100%;
 }
 
 main
@@ -224,12 +226,23 @@ footer
 
 @media (max-width: 1480px)
 {
+  body
+  {
+    width: 100%;
+  }
+  
+  main
+  {
+    width: 100%;
+  }
+  
   .header-2
   {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 
   .img2
@@ -251,6 +264,11 @@ footer
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .primer-texto
+  {
+    width: 100%;
   }
 }
 
@@ -285,6 +303,11 @@ footer
   {
     width: 100%;
   }
+
+  .imagen-header2
+  {
+    width: 100%;
+  }
 }
 
 
@@ -292,59 +315,60 @@ footer
 {
   .header-1
   {
-    width: 100%;
+      width: 100%;
+    }
+
+    .header-2
+    {
+      width: 100%;
+      justify-content: center;
+      padding: 0px;
+    }
+
+    .informacion-grande
+    {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+    }
+
+    .perfil-doctores
+    {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    main
+    {
+      width: 100% !important;
+    }
+
+    .intro-tipo-doctor
+    {
+      width: 100%;
+    }
+
+
   }
 
-  .header-2
+  @media(max-width: 600px)
   {
-    width: 100%;
-    justify-content: center;
-    padding: 0px;
+    .doctores-foto
+    {
+      width: 400px;
+      height: 566px;
+    }
   }
 
-  .informacion-grande
+  @media(max-width: 400px)
   {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+    .doctores-foto
+    {
+      width: 300px;
+      height: 425px;
+    }
   }
-
-  .perfil-doctores
-  {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  main
-  {
-    width: 100% !important;
-  }
-
-  .intro-tipo-doctor
-  {
-    width: 100%;
-  }
-
-}
-
-@media(max-width: 600px)
-{
-  .doctores-foto
-  {
-    width: 400px;
-    height: 566px;
-  }
-}
-
-@media(max-width: 400px)
-{
-  .doctores-foto
-  {
-    width: 300px;
-    height: 425px;
-  }
-}

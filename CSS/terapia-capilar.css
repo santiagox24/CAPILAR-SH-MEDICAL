@@ -1,3 +1,7 @@
+body
+{
+  margin: 0px;
+}
 
 .header {
   display: flex;
@@ -75,13 +79,20 @@
 
 .imagen-header2
 {
-    height: 102.4%;
-    width: 400%;
+    height: 100%;
+    width: 100%;
+}
+
+.img2
+{
+  width: 100%;
+  height: auto;
 }
 
 .texto-explicacion
 {
     font-weight: 300;
+    margin: 10px;
 }
 
 main
@@ -202,7 +213,7 @@ footer
 
 .texto-explicacion2
 {
-  width: 1000px;
+
   font-weight: 300;
 }
 
@@ -235,45 +246,40 @@ footer
 }
 
 
-@media (max-width: 1480px)
+@media (max-width: 1500px)
 {
   .header-2
   {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100%;
-    width: auto;
-  }
-
-  .img2
-  {
-    display: flex;
     align-items: center;
-    justify-content: center;
-  }
-  
-  .imagen-header2
-  {
-    min-height: 800px;
-    max-height: 800px;
-    width: auto;
+    padding: 0px;
+    width: 100%;
   }
 
   .perfil-doctores
   {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+  }
+
+  .informacion-grande
+  {
+    width: 100%;
   }
 
   .primer-texto
   {
     width: 100%;
+    padding: 0px;
+  }
+
+  .recomendaciones
+  {
+    width: auto;
   }
 }
+
 
 @media (max-width: 1250px)
 {
@@ -296,9 +302,80 @@ footer
     justify-content: center;
   }
 
-  body
+  
+
+  .img2
   {
-    height: 100%;
-    width: 1121px;
+    width: 100%;
+  }
+
+  .recomendaciones-imagen
+  {
+    width: 900px;
+    height: auto;
+  }
+
+  .informacion-grande
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+@media(max-width: 900px)
+{
+  .header-1
+  {
+    width: 100%;
+  }
+
+  .header-2
+  {
+    width: 100%;
+    justify-content: center;
+    padding: 0px;
+  }
+
+
+  .perfil-doctores
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main
+  {
+    width: 100% !important;
+  }
+
+  .intro-tipo-doctor
+  {
+    width: 100%;
+  }
+
+  .recomendaciones-imagen
+  {
+    width: 600px;
+  }
+}
+
+@media(max-width: 600px)
+{
+  .recomendaciones-imagen
+  {
+    width: 380px;
+  }
+}
+
+@media(max-width: 400px)
+{
+  .recomendaciones-imagen
+  {
+    width: 280px;
   }
 }

@@ -74,8 +74,12 @@ footer
 {
     background: linear-gradient(to bottom, #90c8fb, #ffffff);
     padding: 10px;
-    width: 68%;
+    width: 88%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .titulo-header2
@@ -85,16 +89,17 @@ footer
     align-items: center;
 }
 
+.img2
+{
+  height: 900px;
+  width: 100%;
+}
+
 .imagen-header2
 {
     height: 100%;
     width: 100%;
-}
-
-.img2
-{
-  width: 100%;
-  height: auto;
+    
 }
 
 .texto-explicacion
@@ -281,11 +286,17 @@ footer
   {
     width: 100%;
     padding: 0px;
+
   }
 
   .recomendaciones
   {
     width: auto;
+  }
+
+  .img2
+  {
+    width: 600px;
   }
 }
 
@@ -312,11 +323,6 @@ footer
   }
 
   
-
-  .img2
-  {
-    width: 100%;
-  }
 
   .recomendaciones-imagen
   {
@@ -374,5 +380,14 @@ footer
   .intro-tipo-doctor
   {
     width: 100%;
+  }
+}
+
+@media(max-width: 630px)
+{
+  .img2
+  {
+    width: 300px;
+    height: 600px;
   }
 }

@@ -1,6 +1,7 @@
-html
+
+body
 {
-  width: 100%;
+  margin: 0px;
 }
 
 footer
@@ -73,7 +74,7 @@ footer
 {
     background: linear-gradient(to bottom, #90c8fb, #ffffff);
     padding: 10px;
-    width: 41%;
+    width: 68%;
     height: auto;
 }
 
@@ -176,12 +177,17 @@ footer
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .h1Main
 {
     font-weight: 501;
     padding: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
 
 }
 
@@ -246,6 +252,7 @@ footer
     margin-bottom: 0px;
     height: auto;
     width: 1000px;
+    min-width: 300px;
 }
 
 @media (max-width: 1500px)
@@ -313,7 +320,8 @@ footer
 
   .recomendaciones-imagen
   {
-    width: 900px;
+    
+    
     height: auto;
   }
 
@@ -326,6 +334,14 @@ footer
   }
 }
 
+
+ @media(max-width: 1020px)
+ {
+  .recomendaciones-imagen
+  {
+   width: 80%;
+  }
+ }
 
 @media(max-width: 900px)
 {
@@ -358,26 +374,5 @@ footer
   .intro-tipo-doctor
   {
     width: 100%;
-  }
-
-  .recomendaciones-imagen
-  {
-    width: 600px;
-  }
-}
-
-@media(max-width: 600px)
-{
-  .recomendaciones-imagen
-  {
-    width: 380px;
-  }
-}
-
-@media(max-width: 400px)
-{
-  .recomendaciones-imagen
-  {
-    width: 280px;
   }
 }

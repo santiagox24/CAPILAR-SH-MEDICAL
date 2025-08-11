@@ -77,7 +77,7 @@
 
 .img2
 {
-  height: 800px;
+  height: 1200px;
   width: 100%;
 }
 
@@ -254,8 +254,8 @@ footer
   
   .imagen-header2
   {
-    min-height: 800px;
-    max-height: 800px;
+    max-height: 1100px;
+    width: 60%;
   }
 
   .perfil-doctores
@@ -281,6 +281,15 @@ footer
     align-items: center;
     justify-content: center;
   }
+
+  
+}
+
+@media(max-width: 1200px)
+{
+  .imagen-header2{
+    width: 720px;
+  }
 }
 
 @media (max-width: 1120px)
@@ -299,15 +308,8 @@ footer
     width: 100%;
   }
 
-  .img2
-  {
-    width: 100%;
-  }
 
-  .imagen-header2
-  {
-    width: 100%;
-  }
+  
 }
 
 
@@ -355,6 +357,15 @@ footer
 
   }
 
+  @media(max-width: 720px)
+  {
+    .imagen-header2
+    {
+      width: 450px;
+      height: 681px; 
+    }
+  }
+
   @media(max-width: 600px)
   {
     .doctores-foto
@@ -363,6 +374,15 @@ footer
       height: 566px;
     }
   }
+
+@media(max-width: 450px)
+{
+  .imagen-header2
+  {
+    width: 300px;
+    height: 454px;
+  }
+}
 
   @media(max-width: 400px)
   {
